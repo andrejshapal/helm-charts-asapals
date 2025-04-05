@@ -16,7 +16,51 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: v0.55.0
-    created: "2025-04-05T03:28:12.586761+03:00"
+    created: "2025-04-05T03:43:28.779478+03:00"
+    dependencies:
+    - condition: crds.plain
+      name: crds
+      repository: ""
+      version: 0.0.*
+    description: Victoria Metrics Operator CRDs
+    digest: f14f433df22643fe7ffdde4410c1a976fa87615fe72abf18e187582f79a5af2b
+    home: https://github.com/VictoriaMetrics/operator
+    icon: https://avatars.githubusercontent.com/u/43720803?s=200&v=4
+    keywords:
+    - victoriametrics
+    - operator
+    - monitoring
+    - kubernetes
+    - observability
+    - tsdb
+    - metrics
+    - metricsql
+    - timeseries
+    kubeVersion: '>=1.25.0-0'
+    name: victoria-metrics-operator-crds
+    sources:
+    - https://github.com/VictoriaMetrics/helm-charts
+    - https://github.com/VictoriaMetrics/operator
+    type: application
+    urls:
+    - victoria-metrics-operator-crds-0.0.5.tgz
+    version: 0.0.5
+  - annotations:
+      artifacthub.io/category: monitoring-logging
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Sources
+          url: https://github.com/VictoriaMetrics/helm-charts/tree/master/charts/victoria-metrics-operator
+        - name: Charts repo
+          url: https://victoriametrics.github.io/helm-charts/
+        - name: Docs
+          url: https://docs.victoriametrics.com/operator
+        - name: Changelog
+          url: https://docs.victoriametrics.com/operator/changelog
+      artifacthub.io/operator: "true"
+    apiVersion: v2
+    appVersion: v0.55.0
+    created: "2025-04-05T03:43:28.761958+03:00"
     dependencies:
     - condition: crds.plain
       name: crds
@@ -60,7 +104,7 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: v0.55.0
-    created: "2025-04-05T03:28:12.564859+03:00"
+    created: "2025-04-05T03:43:28.74912+03:00"
     dependencies:
     - condition: crds.plain
       name: crds
@@ -104,7 +148,7 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: v0.55.0
-    created: "2025-04-05T03:28:12.550385+03:00"
+    created: "2025-04-05T03:43:28.737237+03:00"
     dependencies:
     - name: crds
       repository: ""
@@ -132,4 +176,4 @@ entries:
     urls:
     - victoria-metrics-operator-crds-0.0.2.tgz
     version: 0.0.2
-generated: "2025-04-05T03:28:12.542386+03:00"
+generated: "2025-04-05T03:43:28.730713+03:00"
